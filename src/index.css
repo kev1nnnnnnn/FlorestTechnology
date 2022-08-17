@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Merriweather&family=Montserrat:wght@200;300;700&family=Poppins&family=Roboto:wght@100&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.carousel {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+.main {
+  margin: 4em 0;
+}
+.mainTeam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-image: linear-gradient(to right, rgba(1, 32, 38, 0.9), rgba(28, 28, 28, 1));
+  margin-bottom: 5em;
+  margin-top: 5em;
+
+
+}
+
+.card {
+  background-color: #012026;
+}
