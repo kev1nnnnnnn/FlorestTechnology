@@ -5,6 +5,8 @@ import logo from '../../assets/logo.png'
 import * as C from './styles';
 import { Link } from 'react-router-dom';
 
+import { Team } from '../../components/HomeComponents/Team';
+
 export function NavComponents() {
 
   const renderTooltip = (props) => (
@@ -21,8 +23,8 @@ export function NavComponents() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to='#'>Home</Nav.Link>
-            <Nav.Link as={Link} to='#'>Sobre nós</Nav.Link>
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#team">Sobre nós</Nav.Link>
             <Nav.Link as={Link} to='#'>Contato</Nav.Link>
           </Nav>
           <Nav>

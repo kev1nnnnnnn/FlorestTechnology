@@ -24,7 +24,7 @@ export const Text = styled.p`
 export const Button = styled.a`
     display: flex;
     flex-direction: row;
-    width: 55%;
+    width: 70%;
     justify-content: space-evenly;
     background-color: #34af23 ;
     border-radius: 10px;

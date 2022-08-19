@@ -8,7 +8,6 @@ import julian from '../../../assets/img/team/Julian.jpg';
 import { BsLinkedin, BsGithub  } from 'react-icons/bs';
 import { MdEmail,  } from 'react-icons/md' ;
 
-<BsLinkedin size={32} />
 
 
 export function Team() {
@@ -17,7 +16,7 @@ export function Team() {
         <>
         <Container fluid className="mainTeam">  
     
-            <C.TitleTop>Team</C.TitleTop>
+            <C.TitleTop id="team" >Team</C.TitleTop>
             <C.SubTitleTop>Nosso time é composto por sócios especializados na área de tecnologia</C.SubTitleTop>
             <Row>
            
