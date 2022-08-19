@@ -63,7 +63,8 @@ export const Button = styled.a`
 
     &:hover {
         background-color: #F5F5F5;
-        color: #1c1c1c;
+        color: #012026;
+        border: 1px solid #012026;
         
     }
 

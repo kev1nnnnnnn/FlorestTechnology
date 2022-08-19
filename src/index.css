@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -18,7 +19,10 @@ code {
 @tailwind components;
 @tailwind utilities;
 
-
+.navbar {
+  background-image: linear-gradient(to right, rgba(5, 20, 24, 0.8), #080f15);
+  height: 5em;
+}
 .carousel {
   width: 50%;
   height: auto;
@@ -35,8 +39,7 @@ code {
   background-color: #F5F5F5;
   /* background-image: linear-gradient(to left, rgba(5, 20, 24, 0.9), #080f15); */
   margin-bottom: 5em;
-  margin-top: 5em;
-
+  margin-top: 2em;
 
 }
 
@@ -45,7 +48,7 @@ code {
 }
 /* #051418 */
 .mainServices {
-
+  
   margin-bottom: 5em;
   margin-top: -0.5em;
   background-image: linear-gradient(to left, rgba(5, 20, 24, 0.9), #080f15);
@@ -69,4 +72,24 @@ code {
   transform: scale(1.2);
   color: #080f15;
   transition: 1s;
+}
+
+.mainContact {
+  padding: 1em;
+  margin: 5em 0;
+}
+
+/* ========================= FEDBACK ========================= */
+.mainFeedbacks {
+  padding: 6em 0;
+  margin-bottom: 4em;
+  background-image: linear-gradient(to left, rgba(5, 20, 24, 0.9), #080f15);
+}
+
+
+@media only screen and (min-width: 992px) {
+  
+    .colService {
+
+    }
 }

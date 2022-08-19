@@ -11,7 +11,7 @@ export function Services() {
 
     return(
 
-        <Container fluid className="mainServices m-auto">
+        <Container fluid className="mainServices">
             <C.TitleTop>Serviços</C.TitleTop>
             <C.SubTitleTop>Como posso lhe ajudar no seu negócio?</C.SubTitleTop>
             <Row>
@@ -24,7 +24,7 @@ export function Services() {
                             <C.Text>
                             Trabalho com desenvolvimento de sites modernos e dinâmicos para trazer excelentes resultados para o seu negócio!!
                             </C.Text>
-                            <C.Button >Entre em contato</C.Button>
+                            <C.Button href="https://bit.ly/3dx8z4K" target="_blank">Entre em contato</C.Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -36,7 +36,7 @@ export function Services() {
                             <C.Text>
                             Aplicativos dinâmicos e para todas as plataformas, Android e IOS, tudo para ser o diferencial da sua empresa!!
                             </C.Text>
-                            <C.Button >Entre em contato</C.Button>
+                            <C.Button href="https://bit.ly/3dx8z4K" target="_blank">Entre em contato</C.Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -49,7 +49,7 @@ export function Services() {
                             <C.Text>
                             Não adianta ter uma aplicação de sucesso sem ela ter a capacidade de aguentar milhões de acessos simultâneos!
                             </C.Text>
-                            <C.Button >Entre em contato</C.Button>
+                            <C.Button href="https://bit.ly/3dx8z4K" target="_blank" >Entre em contato</C.Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -66,7 +66,7 @@ export function Services() {
                           <C.Text>
                           Fazer as minhas aplicações ficarem bonitas e acessíveis é extremamente importante, ainda bem que sou especialista nisso!!
                           </C.Text>
-                          <C.Button >Entre em contato</C.Button>
+                          <C.Button href="https://bit.ly/3dx8z4K" target="_blank" >Entre em contato</C.Button>
                       </Card.Body>
                   </Card>
               </Col>
@@ -78,7 +78,7 @@ export function Services() {
                           <C.Text>
                           Sozinho não se chega a lugar nenhum, então trabalhar em equipe não é uma dificuldade, e sim uma dádiva!
                           </C.Text>
-                          <C.Button >Entre em contato</C.Button>
+                          <C.Button href="https://bit.ly/3dx8z4K" target="_blank" >Entre em contato</C.Button>
                       </Card.Body>
                   </Card>
               </Col>
@@ -87,11 +87,11 @@ export function Services() {
                   <Card style={{ width: '25rem' }} className="border-0 border-transparent text-center cardService ">
                       <GoMegaphone size={100} className="m-auto" color="#012026" />
                       <Card.Body>
-                          <C.Title>SEO &amp; Marketing Digital</C.Title>
+                          <C.Title>Marketing Digital</C.Title>
                           <C.Text>
                           A aplicação ou produto precisa e deve atingir o máximo de pessoas possível, pois quem não é visto, não é lembrado!
                           </C.Text>
-                          <C.Button >Entre em contato</C.Button>
+                          <C.Button href="https://bit.ly/3dx8z4K" target="_blank">Entre em contato</C.Button>
                       </Card.Body>
                   </Card>
               </Col>

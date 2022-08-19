@@ -9,11 +9,14 @@ font-family: 'Roboto', sans-serif;
 */
 
 export const Title = styled.h2`
-    color: #1C1C1C;
+    color: #012026;
+    font-size: 1.5em;
+    font-family: 'Asap', sans-serif;
 
 `
 export const Text = styled.p`
-    color: #1C1C1C;
+    color: #012026;
+    font-family: 'Poppins', sans-serif;
 
 `
 export const TitleTop = styled.h1`
@@ -24,22 +27,30 @@ export const TitleTop = styled.h1`
     letter-spacing: 0.1em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    color: #F5F5F5;
+    color: #012026;
+    @media (max-width: 600px)
+    {    
+        font-size: 1.5em;
+    }
 
 `
 export const SubTitleTop = styled.h2`
     text-align: center;
     font-size: 20px;
-    color: #F5F5F5;
+    color: #012026;
     margin-bottom: 2em;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
+    @media (max-width: 600px)
+    {    
+        font-size: 1em;
+    }
 
 `
 export const Image = styled.img`
-    width: 90%;
-    height: auto;
-    border-radius: 1em;
+    width: 60%;
+    height: 15em;
+    border-radius: 50%;
     margin: auto;
     padding: 10px;
 

@@ -17,6 +17,10 @@ export const Title = styled.h1`
     letter-spacing: 0.1em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    @media (max-width: 600px)
+    {    
+        font-size: 1.5em;
+    }
 `
 export const SubTitleTop = styled.h2`
     text-align: center;
@@ -26,4 +30,7 @@ export const SubTitleTop = styled.h2`
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
 
+`
+export const Image = styled.img`
+    border-radius: 10px;
 `

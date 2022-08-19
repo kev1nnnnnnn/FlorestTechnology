@@ -4,7 +4,7 @@ import InfiniteCarousel from 'react-leaf-carousel';
 
 import * as C from './styles';
 import works from '../../../assets/img/works.png'
-
+import { Container } from "react-bootstrap";
 
 export function Works() {
 
@@ -28,7 +28,7 @@ export function Works() {
 
     
     return(
-        <>
+        <Container>
 
         <C.Title>Conheça nosso projetos!</C.Title>
    
@@ -58,31 +58,31 @@ export function Works() {
         scrollOnDevice={true}
       >
         <div>
-          <img
+          <C.Image
             alt=''
             src={works}
           />
         </div>
         <div>
-          <img
+          <C.Image
             alt=''
             src={works}
           />
         </div>
         <div>
-          <img
+          <C.Image
             alt=''
             src={works}
           />
         </div>
         <div>
-          <img
+          <C.Image
             alt=''
             src={works}
           />
         </div>
         <div>
-          <img
+          <C.Image
             alt=''
             src={works}
           />
@@ -90,6 +90,6 @@ export function Works() {
       
       
       </InfiniteCarousel>
-      </>
+      </Container>
     );
 }

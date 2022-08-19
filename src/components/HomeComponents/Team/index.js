@@ -30,11 +30,11 @@ export function Team() {
                         Analista e desenvolvedor Full-Stack
                         </C.Text>
 
-                     <C.CardIcon>
-                        <MdEmail size={32} />
-                        <BsLinkedin size={32} />
-                        <BsGithub size={32} />    
-                     </C.CardIcon>
+                        <C.CardIcon>
+                            <MdEmail size={32} />
+                            <BsLinkedin size={32} />
+                            <BsGithub size={32} />    
+                        </C.CardIcon>
                      
                     </Card.Body>
                 </Card>
@@ -47,7 +47,11 @@ export function Team() {
                         <C.Text>
                         Desenvolvedor Front End UI/UX - Usabilidade, interface e interação
                         </C.Text>
-                     {/* icon */}
+                        <C.CardIcon>
+                            <MdEmail size={32} />
+                            <BsLinkedin size={32} />
+                            <BsGithub size={32} />    
+                        </C.CardIcon>
                     </Card.Body>
                 </Card>
             </Col>
@@ -60,7 +64,11 @@ export function Team() {
                         <C.Text>
                         Desenvolvedor Back-End 
                         </C.Text>
-                     {/* icon */}
+                        <C.CardIcon>
+                            <MdEmail size={32} />
+                            <BsLinkedin size={32} />
+                            <BsGithub size={32} />    
+                        </C.CardIcon>
                     </Card.Body>
                 </Card>
             </Col>
