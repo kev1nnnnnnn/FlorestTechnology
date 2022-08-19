@@ -9,17 +9,9 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
-export const Title = styled.h2`
-
-
-`
-export const Text = styled.p`
-
-
-`
-export const TitleTop = styled.h1`
+export const Title = styled.h1`
     text-align: center;
-    margin-top: 2em;
+    margin: 1em 0;
     font-size: 2.7rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -33,15 +25,5 @@ export const SubTitleTop = styled.h2`
     margin-bottom: 2em;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
-
-`
-export const Image = styled.img`
-
- 
-
-`
-
-export const Button = styled.a`
-
 
 `

@@ -9,11 +9,11 @@ font-family: 'Roboto', sans-serif;
 */
 
 export const Title = styled.h2`
-    color: #f5f5f5;
+    color: #1C1C1C;
 
 `
 export const Text = styled.p`
-    color: #f5f5f5;
+    color: #1C1C1C;
 
 `
 export const TitleTop = styled.h1`
@@ -43,6 +43,13 @@ export const Image = styled.img`
     margin: auto;
     padding: 10px;
 
+`
+
+export const CardIcon = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4em;
 `
 
 export const Button = styled.a`

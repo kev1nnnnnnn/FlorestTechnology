@@ -27,12 +27,13 @@ code {
 .main {
   margin: 4em 0;
 }
+
 .mainTeam {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  background-image: linear-gradient(to right, rgba(1, 32, 38, 0.9), rgba(28, 28, 28, 1));
+  background-color: #F5F5F5;
+  /* background-image: linear-gradient(to left, rgba(5, 20, 24, 0.9), #080f15); */
   margin-bottom: 5em;
   margin-top: 5em;
 
@@ -41,4 +42,31 @@ code {
 
 .card {
   background-color: #012026;
+}
+/* #051418 */
+.mainServices {
+
+  margin-bottom: 5em;
+  margin-top: -0.5em;
+  background-image: linear-gradient(to left, rgba(5, 20, 24, 0.9), #080f15);
+  padding-bottom: 5em;
+  padding-top: 0.1em;
+}
+
+.cardService {
+  margin-top: 1em;
+  padding: 2.5rem;
+  border-radius: 10px;
+  border: transparent;
+  transition: 1s;
+  animation: ease-in-out;
+
+}
+
+.cardService:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #080f15;
+  transition: 1s;
 }

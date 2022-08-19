@@ -2,7 +2,7 @@ import React from "react";
 // import {Carousel } from 'react-bootstrap';
 import InfiniteCarousel from 'react-leaf-carousel';
 
-// import * as C from './styles';
+import * as C from './styles';
 import works from '../../../assets/img/works.png'
 
 
@@ -28,7 +28,10 @@ export function Works() {
 
     
     return(
+        <>
 
+        <C.Title>Conheça nosso projetos!</C.Title>
+   
         <InfiniteCarousel
         breakpoints={[
           {
@@ -87,5 +90,6 @@ export function Works() {
       
       
       </InfiniteCarousel>
+      </>
     );
 }
