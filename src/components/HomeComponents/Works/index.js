@@ -3,8 +3,13 @@ import React from "react";
 import InfiniteCarousel from 'react-leaf-carousel';
 
 import * as C from './styles';
-import works from '../../../assets/img/works.png'
+import dozeapostolos from '../../../assets/img/12apostolos-carousel.jpeg';
+import alecy from '../../../assets/img/alecy-carousel.jpeg';
+import frota from '../../../assets/img/frotaonline-carousel.jpeg';
+import movelplay from '../../../assets/img/movelPlay-carousel.jpeg';
+
 import { Container } from "react-bootstrap";
+
 
 export function Works() {
 
@@ -60,33 +65,28 @@ export function Works() {
         <div>
           <C.Image
             alt=''
-            src={works}
+            src={dozeapostolos}
           />
         </div>
         <div>
           <C.Image
             alt=''
-            src={works}
+            src={alecy}
           />
         </div>
         <div>
           <C.Image
             alt=''
-            src={works}
+            src={frota}
           />
         </div>
         <div>
           <C.Image
             alt=''
-            src={works}
+            src={movelplay}
           />
         </div>
-        <div>
-          <C.Image
-            alt=''
-            src={works}
-          />
-        </div>
+       
       
       
       </InfiniteCarousel>

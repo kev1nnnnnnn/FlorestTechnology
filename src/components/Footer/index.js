@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap';
 import Wave from 'react-wavify';
 export  function Footer() {
   return (
-    <Container fluid>
+    <Container fluid id="footer">
 
       <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
             <Wave mask="url(#mask)" fill="rgba(1, 32, 38, 1)">

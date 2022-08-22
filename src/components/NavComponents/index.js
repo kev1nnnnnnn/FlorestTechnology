@@ -25,7 +25,7 @@ export function NavComponents() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#team">Sobre nós</Nav.Link>
-            <Nav.Link as={Link} to='#'>Contato</Nav.Link>
+            <Nav.Link href="#footer">Contato</Nav.Link>
           </Nav>
           <Nav>
             {/* <Nav.Link href="#deets">More deets</Nav.Link> */}
