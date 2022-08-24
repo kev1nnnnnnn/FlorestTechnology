@@ -21,7 +21,7 @@ export  function Footer() {
       </Wave>
         <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
           <div className='me-5 d-none d-lg-block'>
-            <span>Conecte-se conosco nas redes sociais e solcite seu orçamento gratuito:</span>
+            <span>Conecte-se conosco nas redes sociais e solicite seu orçamento gratuito:</span>
           </div>
 
           <div>
@@ -55,7 +55,7 @@ export  function Footer() {
                   Florest Technology
                 </h6>
                 <p>
-                Empresa especializada em desenvolvimento de software, entregamos tudo em até 2 semanas!
+                Empresa especializada em desenvolvimento de software, sistemas, sites e aplicativos!
                 </p>
               </MDBCol>
 
@@ -83,20 +83,7 @@ export  function Footer() {
                 </p>
               </MDBCol>
 
-              <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-                <h6 className='text-uppercase fw-bold mb-4'>Legal</h6>
-                <p>
-                  <a as={Link} to="/" className='text-reset'>
-                    Termos e condições
-                  </a>
-                </p>
-                <p>
-                  <a as={Link} to="/" className='text-reset'>
-                    Política de privacidade
-                  </a>
-                </p>
-              
-              </MDBCol>
+            
 
               <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-3 mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4'>Contatos</h6>
@@ -112,7 +99,7 @@ export  function Footer() {
                   <MDBIcon icon="phone" className="me-3" /> (92) 99608-0250
                 </p>
                 <p>
-                  <MDBIcon icon="print" className="me-3" /> (92) 981240928
+                  <MDBIcon icon="print" className="me-3" /> (92) 98124-0928
                 </p>
               </MDBCol>
             </MDBRow>
@@ -121,8 +108,8 @@ export  function Footer() {
 
         <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
           © 2022 Copyright: 
-          <a className='text-reset fw-bold ml-2' as={Link} to="">
-            www.floresttecnology.com
+          <a className='text-reset fw-bold ml-2' href='www.floresttechnology.com' target='_blank'>
+          www.floresttechnology.com 
           </a>
         </div>
       </MDBFooter>

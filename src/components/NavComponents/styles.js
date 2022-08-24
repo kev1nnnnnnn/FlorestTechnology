@@ -13,7 +13,7 @@ export const Image = styled.img`
 `
 export const Button = styled.a`
     background-color: #0FF777;
-    padding: 10px 20px;
+    padding: 0.5em 1em;
     border-radius: 2em;
     color: rgba(5, 20, 24, 1);
     font-size: 18px;

@@ -5,7 +5,6 @@ import logo from '../../assets/logo.png'
 import * as C from './styles';
 import { Link } from 'react-router-dom';
 
-import { Team } from '../../components/HomeComponents/Team';
 
 export function NavComponents() {
 
@@ -19,7 +18,7 @@ export function NavComponents() {
     <Navbar className='navbar' collapseOnSelect expand="lg" bg="" variant="dark" fixed='top'>
       <Container>
        {/* <C.Image src={logo} /> */}
-       <Navbar.Brand as={Link} to='#' >Florest Technology</Navbar.Brand>
+       <Navbar.Brand href="#home">Florest Technology</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

@@ -19,6 +19,16 @@ export const Text = styled.p`
     font-family: 'Poppins', sans-serif;
 
 `
+export const LinkA = styled.a`
+    text-decoration: none;
+    color: #012026;
+    transition: 0.5s;
+    &:hover {
+        color: #0FF777;
+      
+    }
+`
+
 export const TitleTop = styled.h1`
     text-align: center;
     margin-top: 2em;

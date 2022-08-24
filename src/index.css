@@ -20,8 +20,11 @@ code {
 @tailwind utilities;
 
 .navbar {
-  background-image: linear-gradient(to right, rgba(5, 20, 24, 0.8), #080f15);
+  background-image: linear-gradient(to right, #012026, #080f15);
   height: 5em;
+}
+.navToogle {
+  background-image: linear-gradient(to right, #012026, #080f15);
 }
 .carousel {
   width: 50%;
@@ -48,7 +51,6 @@ code {
 }
 /* #051418 */
 .mainServices {
-  
   margin-bottom: 5em;
   margin-top: -0.5em;
   background-image: linear-gradient(to left, rgba(5, 20, 24, 0.9), #080f15);

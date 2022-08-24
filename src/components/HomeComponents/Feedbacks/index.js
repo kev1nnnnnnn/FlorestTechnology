@@ -1,6 +1,10 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import * as C from './styles';
+
+import homem from '../../../assets/img/avatar-homem.png';
+import mulher from '../../../assets/img/avatar-mulher.png';
+
 export function Feedbacks() {
 
     return(
@@ -22,7 +26,7 @@ export function Feedbacks() {
                         <footer class="mt-6">
                             <div class="flex items-center">
                             <div class="flex-shrink-0">
-                                <img class="h-10 w-10 rounded-full" src="https://picsum.photos/id/237/200/300" alt="Image Description"></img>
+                                <img class="h-10 w-10 rounded-full" src={mulher} alt="Image Description"></img>
                             </div>
                             <div class="ml-4">
                                 <div class="text-base font-semibold text-white dark:text-white"> Viviane Menezes</div>
@@ -49,11 +53,11 @@ export function Feedbacks() {
                             <footer class="mt-6">
                                 <div class="flex items-center">
                                 <div class="flex-shrink-0">
-                                    <img class="h-10 w-10 rounded-full" src="https://picsum.photos/id/237/200/300" alt="Image Description"></img>
+                                    <img class="h-10 w-10 rounded-full" src={mulher} alt="Image Description"></img>
                                 </div>
                                 <div class="ml-4">
-                                    <div class="text-base font-semibold text-white text-white">Letícia Costa</div>
-                                    <div class="text-xs text-white">Fisioterapeuta</div>
+                                    <div class="text-base font-semibold text-white text-white">Alessandra Brandão</div>
+                                    <div class="text-xs text-white">Restaurante</div>
                                 </div>
                                 </div>
                             </footer>
@@ -76,11 +80,11 @@ export function Feedbacks() {
                             <footer class="mt-6">
                                 <div class="flex items-center">
                                 <div class="flex-shrink-0">
-                                    <img class="h-10 w-10 rounded-full" src="https://picsum.photos/id/237/200/300" alt="Image Description"></img>
+                                    <img class="h-10 w-10 rounded-full" src={homem} alt="Image Description"></img>
                                 </div>
                                 <div class="ml-4">
-                                    <div class="text-base font-semibold text-white text-white">Hugo Jorge</div>
-                                    <div class="text-xs text-white">Fisioterapeuta</div>
+                                    <div class="text-base font-semibold text-white text-white">Pablo Soares</div>
+                                    <div class="text-xs text-white">Pastor</div>
                                 </div>
                                 </div>
                             </footer>
