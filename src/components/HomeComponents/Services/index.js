@@ -5,7 +5,7 @@ import { Row, Col, Container, Card } from 'react-bootstrap'
 import { GoDeviceMobile, GoMegaphone } from 'react-icons/go'
 import { BsCode, BsWifi } from 'react-icons/bs'
 import { CgIfDesign } from 'react-icons/cg'
-import { AiOutlineTeam } from 'react-icons/ai'
+import { AiOutlineCloudServer } from 'react-icons/ai'
 
 export function Services() {
   return (
@@ -94,12 +94,11 @@ export function Services() {
             style={{ width: '25rem' }}
             className="border-0 border-transparent text-center cardService "
           >
-            <AiOutlineTeam size={100} className="m-auto" color="#012026" />
+            <AiOutlineCloudServer size={100} className="m-auto" color="#012026" />
             <Card.Body>
-              <C.Title>Trabalho em equipe</C.Title>
+              <C.Title>Cloud AWS</C.Title>
               <C.Text>
-                Sozinho não se chega a lugar nenhum, então trabalhar em equipe
-                não é uma dificuldade, e sim uma dádiva!
+                Armazenamento de arquivos e máquinas virtuais, acesso remoto.
               </C.Text>
               <C.Button href="https://bit.ly/3dx8z4K" target="_blank">
                 Entre em contato

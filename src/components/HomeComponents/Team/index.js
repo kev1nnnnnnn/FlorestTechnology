@@ -10,7 +10,6 @@ import {
   OverlayTrigger
 } from 'react-bootstrap'
 import kevin from '../../../assets/img/team/kevin.jpg'
-import mateus from '../../../assets/img/team/mateus.jpg'
 import julian from '../../../assets/img/team/Julian.jpg'
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
@@ -119,7 +118,7 @@ export function Team() {
             </Card>
           </Col>
 
-          <Col>
+          {/* <Col>
             <Card
               style={{ width: '25rem' }}
               className="border-0 text-center bg-transparent card"
@@ -156,7 +155,7 @@ export function Team() {
                 </C.CardIcon>
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </>

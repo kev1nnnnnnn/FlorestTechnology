@@ -19,7 +19,7 @@ export function NavComponents() {
       <Container>
        {/* <C.Image src={logo} /> */}
        <Navbar.Brand href="#home">Florest Technology</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
