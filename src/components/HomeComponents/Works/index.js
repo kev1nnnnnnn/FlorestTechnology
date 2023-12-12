@@ -54,8 +54,8 @@ export function Works() {
         showSides={true}
         sidesOpacity={0.5}
         sideSize={0.1}
-        slidesToScroll={4}
-        slidesToShow={4}
+        slidesToScroll={3}
+        slidesToShow={3}
         scrollOnDevice={true}
       >
         <div>
